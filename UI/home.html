@@ -15,9 +15,9 @@
             </a>
         </div>
         <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">History</a></li>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">History</a></li>
             <div class="logoutimage">
                 <img src="logout.png" alt="">
                 <li><a href="">Logout</a></li>
@@ -26,11 +26,13 @@
     </header>
     <!-- header complete -->
 
-    <div class="mainbody">
+        <form action="/home" class="mainbody">
         <p>Paste a review you want to authenticate</p>
-        <textarea name="" id="" cols="100" rows="10"></textarea>
-        <button>Check</button>
-    </div>
+
+            <textarea placeholder="Paste the review" name="" id="" cols="100" rows="10"></textarea>
+            <button type="submit">Check</button>
+        </form>
+        
 
     <!-- footer start -->
     <footer>
