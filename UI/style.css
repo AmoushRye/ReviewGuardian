@@ -83,3 +83,19 @@ footer .main-footer .social img{
     text-align: center;
     font-size: 13px;
 }
+footer{
+    margin-top: 80px;
+}
+@media (max-width:540px){
+    header{
+        flex-direction: column;
+    }
+    .mainbody p{
+        font-size: 15px;
+    }
+}
+@media (max-width:400px) {
+    .main-footer img{
+        width: 150px;
+    }
+}
