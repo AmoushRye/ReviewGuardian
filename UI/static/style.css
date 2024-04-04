@@ -93,9 +93,18 @@ footer{
     .mainbody p{
         font-size: 15px;
     }
+    textarea{
+        font-size: 15px;
+    }
 }
 @media (max-width:400px) {
     .main-footer img{
         width: 150px;
     }
+    textarea{
+        font-size: 12px;
+    }
+}
+textarea{
+    font-size: 20px;
 }

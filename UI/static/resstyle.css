@@ -1,0 +1,21 @@
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 40vh;
+    justify-content: center;
+}
+.main-container h1{
+    color:rgba(31,163,248) ;
+    margin-bottom: 40px;
+}
+.main-container p{
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+footer{
+    margin-top: 15%;
+}
+.main-container a{
+    font-size: 20px;
+}

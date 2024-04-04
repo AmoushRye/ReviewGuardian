@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="../static/style.css">
+    <link rel="stylesheet" href="../static/resstyle.css">
 </head>
 <body>
     <!-- header start -->
@@ -15,7 +16,7 @@
             </a>
         </div>
         <ul>
-            <li><a href="/">Home</a></li>
+            <li><a href="home.html">Home</a></li>
             <li><a href="/">About</a></li>
             <li><a href="/">History</a></li>
             <div class="logoutimage">
@@ -25,12 +26,12 @@
         </ul>
     </header>
     <!-- header complete -->
-
-    <form action="/result" class="mainbody" method="post">
-        <p>Paste a review you want to authenticate</p>
-        <textarea placeholder="Paste the review" name="text" id="" cols="100" rows="10"></textarea>
-        <button type="submit">Check</button>
-    </form>
+    <div class="main-container">
+        <h1>Results</h1>
+        <p>The review is: {{ pred }}</p>
+        <a href="/">Go back to Home</a>
+    </div>
+    
         
     <!-- footer start -->
     <footer>
