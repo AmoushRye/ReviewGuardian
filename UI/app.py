@@ -6,6 +6,9 @@ app = Flask(__name__)
 # Load the pre-trained model
 with open('../model.pkl', 'rb') as model_file:
     model = pickle.load(model_file)
+@app.route('/about.html')
+def about():
+    return render_template('about.html')
 
 def classify_review(review_text):
     prediction = model.predict([review_text])
